@@ -10,7 +10,7 @@ finally:
     file.close()
 
 
-# =============== better syntax by python ===============
+# =============== better syntax by python =============== #
 
 with open('youtube.txt','w') as file :
     file.write('chai aur python')
