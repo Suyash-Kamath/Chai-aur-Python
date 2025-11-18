@@ -14,5 +14,14 @@ class ListIterator:
 
 it = ListIterator([1, 2, 3])
 
-for x in it:
-    print(x)
+# for x in it:
+#     print(x)
+#  This is equivalent to this :
+
+it = iter(it)
+while True:
+    try:
+        x = next(it)
+        print(x)
+    except:
+        break
