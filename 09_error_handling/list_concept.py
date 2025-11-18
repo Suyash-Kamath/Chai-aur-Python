@@ -1,7 +1,7 @@
 listt = [{'name':'chai','time':'2min'},{'name':'code','time':'3min'}]
 
 # if ou want to add something in the list , then or update , then how 
-
+list
 
 # enumerate(list,start=1)
 
