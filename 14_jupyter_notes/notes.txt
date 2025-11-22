@@ -1,0 +1,5 @@
+How to deactivate the conda by default injection in the terminal:
+
+use this command
+
+conda config --set auto_activate_base false
